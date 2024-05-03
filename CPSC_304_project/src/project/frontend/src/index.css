@@ -1,0 +1,31 @@
+#root {
+  text-align: center;
+}
+
+body {
+  /*background: url("assets/food_background.svg");*/
+}
+
+#NavBar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+#NavBar * {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+#dropdown {
+  margin: 10px;
+}
+
+#form-insert {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 10px;
+}
